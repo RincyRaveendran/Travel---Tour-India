@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    width: 100%;
+    height: 100px;
+}
+#navcolor{
+   
+    font-size: 20px;
+}
+#navcolor:hover{
+    
+    font-size: 30px;
+}
+.backg{
+   /*  background-image: url('https://etimg.etb2bimg.com/photo/93343457.cms'); */
+    background-image: url('https://www.incredibleindia.org/content/dam/incredibleindia/images/places/agra/agra-tajmahal-10.jpg/_jcr_content/renditions/cq5dam.web.1800.600.jpeg');
+  
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+
+}
+/* .bb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.bb h1{
+    color: rgb(134, 11, 11);
+    font-size: 70px;
+    padding-top: 50px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.bb p{
+    color: white;
+    
+    margin-left: 20px;
+    font-size: 20px;
+   
+}
+.backg span{
+    color:green;
+    font-size: 50px;
+    animation: ind 4s infinite;
+}
+@keyframes ind{
+    0%  { opacity: 1; color: white;}
+            50% { opacity: 0; color: orangered; }
+            100% { opacity: 1;color: green; }
+            0% { text-shadow: 0 0 5px red; }
+            50% { text-shadow: 0 0 20px yellow;}
+}
+.abr{
+    color: brown;
+    font-family: "Ga Maamli", sans-serif;
+}
+#imag1{
+    padding: 7px;
+}
+.parabout{
+    margin-top: 20px;margin-bottom: 20px;
+ /*    background-image: url('https://th.bing.com/th/id/R.44cc0280a8fd51ca79f6bea75ee054a2?rik=E0hrDEmycjBO0g&riu=http%3a%2f%2fwww.pngmagic.com%2fproduct_images%2fmaroon-gradient-background.jpg&ehk=sXDvNG2%2bb5VqLpFd9TnWbLKK%2fKy1PcHYU7dqKnv4kvM%3d&risl=&pid=ImgRaw&r=0');
+    animation: bgpara 4s infinite; */
+}
+
+@keyframes bgpara{
+    0% { background-position: center top; }
+    100% { background-position: center bottom; }
+}
+
+.underline{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 2px;
+    background-color:rgb(134, 11, 11) ;
+}
+.para{
+    font-family: "Ga Maamli", sans-serif;
+    color: brown;
+}
+
+#button1{
+    
+}
+#footer{
+    background-color: rgba(186, 125, 11, 0.811);
+}
+.ineteresth{
+    color: white;
+}
+.interesth5{
+    color: white;
+}
+#hr{
+    height: 2px;
+    width: 70%;
+}
